@@ -43,6 +43,23 @@ public String pigLatin(String sWord)
   {
   	return sWord.substring(2,sWord.length()) + sWord.substring(0,2) + "ay";
   }
-  if()
-}
+  for(int i=0; i< sWord.length(); i++)
+ {
+  if( findFirstVowel(sWord)==i)
+ {
+    con = con + sWord.substring(i,sWord.length())+ sWord.substring(0,i);
+     con= con +"ay";
+     return con;
+  
+ }
+
+ }
+
+ return sWord;
+
+ }
+  
+   
+  
+
 
